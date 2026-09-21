@@ -1,1 +1,184 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noimageindex">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>사랑의 배터리 연구대 | 안전하고 오래 가는 배터리 연구</title>
+  <meta name="description" content="사랑의 배터리 연구대는 전극 소재, 셀 설계, 배터리 관리 시스템, 열 관리와 안전성을 연구합니다.">
+  <meta property="og:title" content="사랑의 배터리 연구대">
+  <meta property="og:description" content="더 안전하고, 더 오래 가는 배터리를 연구합니다.">
+  <meta property="og:image" content="assets/logo.png">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">본문으로 건너뛰기</a>
 
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a href="#top" class="brand">
+        <img src="assets/logo.png" alt="" width="44" height="44">
+        <span>사랑의 배터리 연구대</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">메뉴 열기</span>
+        <span class="bars" aria-hidden="true"></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="주요 메뉴">
+        <a href="#research">연구 분야</a>
+        <a href="#projects">프로젝트</a>
+        <a href="#equipment">장비</a>
+        <a href="#contact">문의</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <h1>더 안전하고,<br>더 오래 가는<br>배터리.</h1>
+          <p class="lead">사랑의 배터리 연구대는 리튬이온 셀의 수명과 안전성을 높이기 위해 전극 소재부터 셀 설계, 배터리 관리 기술까지 연구합니다.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="#projects">연구 프로젝트 보기</a>
+            <a class="btn btn-ghost" href="#contact">협업 문의하기</a>
+          </div>
+        </div>
+        <figure class="hero-art">
+          <img src="assets/images/hero-charge.svg" alt="배터리가 한 칸씩 충전되며 전압 곡선이 그려지는 일러스트" width="460" height="470">
+        </figure>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section class="research" id="research" aria-labelledby="research-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="research-title">연구 분야</h2>
+          <p>셀 안에서 일어나는 화학 반응부터 수백 개의 셀을 묶은 모듈까지, 배터리를 여러 규모에서 들여다봅니다.</p>
+        </div>
+        <ul class="areas">
+          <li>
+            <img src="assets/images/icon-material.svg" alt="" width="48" height="48">
+            <h3>전극 소재</h3>
+            <p>고니켈 양극과 실리콘 복합 음극을 합성하고, 충방전을 반복할 때 구조가 어떻게 변하는지 분석합니다.</p>
+          </li>
+          <li>
+            <img src="assets/images/icon-cell.svg" alt="" width="48" height="48">
+            <h3>셀 설계와 제작</h3>
+            <p>코인 셀부터 파우치 셀까지 직접 만들어, 전극 두께와 전해액 양이 성능에 주는 영향을 확인합니다.</p>
+          </li>
+          <li>
+            <img src="assets/images/icon-bms.svg" alt="" width="48" height="48">
+            <h3>배터리 관리 시스템</h3>
+            <p>전압, 전류, 온도 데이터로 충전 상태와 수명을 추정하는 알고리즘을 개발합니다.</p>
+          </li>
+          <li>
+            <img src="assets/images/icon-safety.svg" alt="" width="48" height="48">
+            <h3>열 관리와 안전성</h3>
+            <p>모듈 내 온도 분포를 측정하고, 열폭주가 번지지 않도록 막는 냉각 구조와 소재를 시험합니다.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects" id="projects" aria-labelledby="projects-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="projects-title">프로젝트</h2>
+          <p>진행했거나 진행 중인 연구입니다.</p>
+        </div>
+
+        <article class="project">
+          <figure><img src="assets/images/cell-cutaway.svg" alt="원통형 셀의 단면. 양극, 분리막, 음극이 나선형으로 말려 있다" loading="lazy" width="520" height="400"></figure>
+          <div class="project-body">
+            <h3>원통형 셀 장기 수명 평가</h3>
+            <p>21700 규격 원통형 셀을 온도 조건별로 1,000회 이상 충방전하며 용량 감소 원인을 추적했습니다. 사이클 후 셀을 해체해 전극 표면 변화를 직접 관찰했습니다.</p>
+            <ul class="tags"><li>수명 평가</li><li>해체 분석</li><li>원통형 셀</li></ul>
+          </div>
+        </article>
+
+        <article class="project">
+          <figure><img src="assets/images/pouch-stack.svg" alt="파우치 셀 분해도. 음극, 분리막, 양극이 번갈아 쌓여 있다" loading="lazy" width="520" height="400"></figure>
+          <div class="project-body">
+            <h3>파우치 셀 적층 공정 개선</h3>
+            <p>전극과 분리막을 쌓는 순서와 정렬 오차가 초기 용량과 불량률에 주는 영향을 비교했습니다. 소량 시제 셀 제작 절차를 표준화했습니다.</p>
+            <ul class="tags"><li>셀 제작</li><li>공정</li><li>파우치 셀</li></ul>
+          </div>
+        </article>
+
+        <article class="project">
+          <figure><img src="assets/images/thermal-map.svg" alt="배터리 모듈 셀 배열의 온도 분포. 가운데 셀일수록 온도가 높다" loading="lazy" width="520" height="360"></figure>
+          <div class="project-body">
+            <h3>모듈 열 분포 분석</h3>
+            <p>40셀 모듈을 급속 충전하며 셀별 온도를 측정했습니다. 가운데 셀에 열이 몰리는 것을 확인하고 냉각판 유로를 다시 설계해 최고 온도를 낮췄습니다.</p>
+            <ul class="tags"><li>열 관리</li><li>급속 충전</li><li>모듈</li></ul>
+          </div>
+        </article>
+
+        <article class="project">
+          <figure><img src="assets/images/cycle-curves.svg" alt="100회, 500회, 1,000회 사이클 후 방전 곡선. 사이클이 늘수록 용량이 줄어든다" loading="lazy" width="540" height="340"></figure>
+          <div class="project-body">
+            <h3>방전 곡선 기반 수명 추정</h3>
+            <p>사이클마다 달라지는 방전 곡선의 모양으로 남은 수명을 예측하는 모델을 만들었습니다. 배터리 관리 시스템에 넣을 수 있도록 계산량을 줄였습니다.</p>
+            <ul class="tags"><li>BMS</li><li>데이터 분석</li><li>수명 예측</li></ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- EQUIPMENT -->
+    <section class="equipment" id="equipment" aria-labelledby="equipment-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="equipment-title">장비</h2>
+          <p>소재 합성부터 셀 평가까지 연구대 안에서 진행할 수 있습니다.</p>
+        </div>
+        <div class="table-scroll">
+          <table>
+            <thead><tr><th scope="col">장비</th><th scope="col">용도</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">다채널 충방전기</th><td>셀 용량, 수명, 출력 평가</td></tr>
+              <tr><th scope="row">아르곤 글러브박스</th><td>수분과 산소를 차단한 상태에서 셀 조립</td></tr>
+              <tr><th scope="row">전기화학 임피던스 분석기</th><td>셀 내부 저항과 계면 변화 측정</td></tr>
+              <tr><th scope="row">항온 챔버</th><td>저온과 고온 조건 시험</td></tr>
+              <tr><th scope="row">열화상 카메라</th><td>모듈과 셀의 표면 온도 분포 측정</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="wrap contact-grid">
+        <div>
+          <h2 id="contact-title">함께 연구하고 싶으신가요?</h2>
+          <p>공동 연구, 셀 평가 의뢰, 대학원 진학 문의 모두 환영합니다.</p>
+          <a class="btn btn-light" href="mailto:lab@example.com?subject=%EB%B0%B0%ED%84%B0%EB%A6%AC%20%EC%97%B0%EA%B5%AC%EC%8B%A4%20%EB%AC%B8%EC%9D%98">이메일 보내기</a>
+        </div>
+        <dl class="contact-info">
+          <dt>이메일</dt><dd><a href="mailto:lab@example.com">lab@example.com</a></dd>
+          <dt>전화</dt><dd><a href="tel:+820000000000">000-0000-0000</a></dd>
+          <dt>위치</dt><dd>주소를 입력하세요</dd>
+        </dl>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>© <span id="year">2026</span> 사랑의 배터리 연구대</p>
+      <a href="../">전체 포트폴리오로 돌아가기</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
