@@ -1,0 +1,12 @@
+# 이미지 수집 차단 / Block image crawling
+User-agent: *
+Disallow: /
+
+User-agent: *
+Disallow: /*.png$
+Disallow: /*.jpg$
+Disallow: /*.jpeg$
+Disallow: /*.gif$
+Disallow: /*.webp$
+Disallow: /*.svg$
+Disallow: /*/assets/images/
